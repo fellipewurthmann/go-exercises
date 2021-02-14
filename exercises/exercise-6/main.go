@@ -5,9 +5,12 @@ import (
 )
 
 func main() {
+	// Write a program that print a number in decimal, binary, hex and Unicode format
+	number := 42
 
-	str := "Eu sou o Fellipe"
-	fmt.Println(str)
-	bs := []byte(str)
-	fmt.Println(bs)
+	fmt.Printf("%d\n", number)
+	fmt.Printf("%b\n", number)
+	fmt.Printf("%#X\n", number)
+	fmt.Printf("%U\n", number)
+
 }
